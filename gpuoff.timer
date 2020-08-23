@@ -1,0 +1,9 @@
+[Unit]
+Description=gpuoff
+
+[Timer]
+OnBootSec=10
+OnUnitActiveSec=10
+
+[Install]
+WantedBy=timers.target
